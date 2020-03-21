@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
 echo $DOMAIN
-ping www.google.com
+ping www.google.com -c 5
