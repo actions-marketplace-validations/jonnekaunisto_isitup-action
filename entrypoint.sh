@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-ping -c 5 $DOMAIN
+ping $DOMAIN -c 5
