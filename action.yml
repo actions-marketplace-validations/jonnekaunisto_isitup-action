@@ -1,12 +1,12 @@
-name: "Hello Actions"
-description: "Greet someone"
-author: "octocat@github.com"
+name: "IsItUpAction"
+description: "Checks if a domain is reachable"
+author: "jonneka@gmail.com"
 
 inputs:
   DOMAIN:
     description: "Domain name"
     required: true
-    default: "www.google.com"
+    default: "www.github.com"
 
 runs:
   using: "docker"
