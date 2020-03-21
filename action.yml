@@ -3,10 +3,10 @@ description: "Greet someone"
 author: "octocat@github.com"
 
 inputs:
-  MY_NAME:
-    description: "Who to greet"
+  DOMAIN:
+    description: "Domain name""
     required: true
-    default: "World"
+    default: "www.google.com"
 
 runs:
   using: "docker"
