@@ -1,5 +1,11 @@
-## Welcome to "Hello World" with GitHub Actions
+An action that runs checks if a domain is reachable. If there domain is not reachable then the action will fail.
 
-This course will walk you through writing your first action and using it with a workflow file. 
+Example workflow:
+* Put the following text into your YAML file in your `.github/workflows` directory:
+```yaml
 
-**Ready to get started? Navigate to the first issue.**
+- name: Is It Up
+  uses: jonnekaunisto/isitup-action
+  with:
+    DOMAIN: www.github.com
+```
