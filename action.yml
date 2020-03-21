@@ -4,7 +4,7 @@ author: "octocat@github.com"
 
 inputs:
   DOMAIN:
-    description: "Domain name""
+    description: "Domain name"
     required: true
     default: "www.google.com"
 
