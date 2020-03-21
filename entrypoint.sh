@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
-sh -c "echo Pinging $DOMAIN"
-sh -c "ping $DOMAIN -c 5"
+sh -c "echo Pinging $INPUT_DOMAIN"
+sh -c "ping $INPUT_DOMAIN -c 5"
